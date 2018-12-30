@@ -56,9 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ObjectDepth.cs" />
     <Compile Include="Assets\RenderDepth.cs" />
-    <None Include="Assets\RenderDepth.shader" />
     <None Include="Assets\ShadowMapping.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/home/luiz0tavio/shadow_mapping/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
