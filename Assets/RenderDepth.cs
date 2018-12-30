@@ -1,5 +1,5 @@
 using UnityEngine;
- 
+
 [ExecuteInEditMode]
 public class RenderDepth : MonoBehaviour
 {
@@ -26,7 +26,6 @@ public class RenderDepth : MonoBehaviour
         if (material != null)
         {
             material.SetFloat("_DepthLevel", 1);
-            //Graphics.Blit(src, dest, material);
             
             var V = cam.worldToCameraMatrix;
             var P = cam.projectionMatrix;
